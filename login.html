@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendinha do Zé</title>
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="login">
+        <img src="assets\images\logo.png" alt="logotipo">
+        <h1>Olá, seja bem-vindo(a)!</h1>
+        <div class="input">
+            <div class="box">
+                <label>Nome de usuário</label>
+                <div class="icon">
+                    <img src="assets\images\image 2.png" alt="icone">
+                    <input type="text" placeholder="Insira seu nome de usuário">
+                </div>
+            </div>
+            <div class="box">
+                <label>Senha</label>
+                <div class="icon">
+                    <img src="assets\images\Vector.png" alt="icone">
+                    <input type="password" id="senha" placeholder="Insira sua senha">
+                    <img src="assets\images\fechado.png" alt="" class="alternarsenha" id="alternar">
+                </div>
+            </div>
+            <div class="options">
+                <label><input type="checkbox"> Lembrar de mim</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+        </div>
+        <button onclick="window.location.href='home.html'">Entrar</button>
+    </div>
+    <script>
+        const senhaInput = document.getElementById("senha");
+        const alternar = document.getElementById("alternar");
+
+        alternar.addEventListener("click", () => {
+            const isPassword = senhaInput.type === "password";
+            senhaInput.type = isPassword ? "text" : "password";
+            alternar.src = isPassword 
+            ? "assets/images/olho.png" 
+            : "assets/images/fechado.png";
+        });
+    </script>
+
+</body>
+</html>

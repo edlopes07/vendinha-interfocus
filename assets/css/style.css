@@ -1,0 +1,131 @@
+* {
+    margin: 0 auto;
+}
+
+html {
+    background: 
+    linear-gradient(180deg, rgba(35, 61, 146, 0.8) 0%, rgba(11, 18, 44, 0.8) 100%),
+    url("https://www.area17.com.br/admin/fotos/estabelecimentos/mercadinho-aquario-de-porto-ipojuca-48874_61841a6db9872.jpg");
+    background-size: cover;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 495px;
+    height: 528px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login > img {
+    width: 250px;
+    margin-top: 55px;
+}
+
+.login > h1 {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: rgba(75, 93, 157, 1);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.icon > input {
+    background-color: rgba(217, 217, 217, 1);
+    width: 376px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: transparent;
+    padding-left: 30px;
+}
+
+.icon > input::placeholder {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.37)
+}
+
+.icon > img {
+    position: absolute;
+    padding: 17px 10px 10px 10px;
+}
+
+.icon > img.alternarsenha {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.icon img.alternarsenha:hover {
+  opacity: 1;
+}
+
+.icon img[src="assets/images/olho.png"] {
+    margin-top: 1px;
+}
+
+.options {
+    display: flex;
+    gap: 170px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.options a{
+    color: rgba(71, 127, 211, 1);
+    text-decoration: none;
+}
+
+.login button {
+    width: 123px;
+    height: 47.4px;
+    margin-top: 65px;
+    align-items: flex-end;
+    background-color: rgb(75, 93, 157);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    border-color: transparent;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+.login button:hover {
+    transform: scale(1.05);
+    background-color: rgb(70, 82, 138);
+}

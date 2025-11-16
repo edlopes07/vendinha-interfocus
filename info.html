@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Vendinha - Informações do Cliente</title>
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside class="menu">
+        <a href="home.html"><img src="assets/images/logo.png" alt="Logo do site"></a>
+        <ul>
+            <li>
+                <a href="#"><img src="assets\images\config.png" alt="">Configuração</a>
+            </li>
+            <li class="quebrado">
+                <a href="#"><img src="assets\images\Ajuda.png" alt="">Ajuda</a>
+            </li>
+            <li class="quebrado" id="quebradao">
+                <a href="login.html"><img src="assets\images\Sair.png" alt="">Sair</a>
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <h2>Informações do cliente</h2>
+        <div class="card">
+            <div class="botoes-acao">
+                <a class="botao" id="voltar" href="historico.html"><img src="assets\images\voltar.png" alt=""></a>
+                <a class="botao" href="cadastro.html"><img src="assets\images\editar.png" alt=""></a>
+            </div>
+           <section class="coluna">
+                        <div class="cadastro">
+                            <p>Nome do cliente</p>
+                            <input type="text" id="nome" name="nome_cliente" value="Carla Lino" disabled>
+                        </div>
+                        <div class="cadastro">
+                            <p>CPF</p>
+                            <input type="text" id="cpf" name="cpf" value="123.456.899-01" disabled>
+                        </div>
+                        <div class="cadastro">
+                            <p>E-mail</p>
+                            <input type="text" id="email" name="email" value="carlalino@gmail.com" disabled>
+                        </div>
+                        <div class="cadastro">
+                            <p>Cidade</p>
+                            <input type="text" id="cidade" name="cidade" value="Marília - SP" disabled>
+                        </div>
+                        <div class="cadastro">
+                            <p>Bairro</p>
+                            <input type="text" id="bairro" name="bairro" value="Campus Universitário" disabled>
+                        </div>
+                        <div class="cadastro">
+                            <p>Rua</p>
+                            <input type="text" id="rua" name="rua" value="Avenida Higyno Muzzy Filho" disabled>
+                        </div>
+                        <div class="cadastro">
+                            <p>Número e complemento</p>
+                            <input type="text" id="complemento" name="complemento" value="287-291" disabled>
+                        </div>
+                    </section>
+            <table class="info">
+                <tr>
+                    <th>Telefone</th>
+                    <th>Observação</th>
+                </tr>
+                <tr>
+                    <td class="num">(14) 99153-2202</td>
+                    <td class="obs">—</td>
+                </tr>
+                <tr>
+                    <td class="num">(14) 99834-0614</td>
+                    <td class="obs">Trabalho</td>
+                </tr>
+            </table>
+
+        </div>
+    </main>
+
+</body>
+</html>
