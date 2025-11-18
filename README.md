@@ -10,7 +10,8 @@
 
 
 ## Links
-[Figma do projeto](https://www.figma.com/design/R25FJOjjL6PJNRNvoRSg08/Wireframe---F%C3%A1brica-de-Projetos?node-id=46-2&t=h8nEvJTjkkGWjDq4-1) <br>
+[Figma](https://www.figma.com/design/R25FJOjjL6PJNRNvoRSg08/Wireframe---F%C3%A1brica-de-Projetos?node-id=46-2&t=h8nEvJTjkkGWjDq4-1) <br>
+
 
 
 
